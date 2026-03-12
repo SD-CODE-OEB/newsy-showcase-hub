@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Zap, TrendingUp } from "lucide-react";
+import { Zap, Activity } from "lucide-react";
 
 const BreakingNewsBanner = () => {
   return (
@@ -7,8 +7,8 @@ const BreakingNewsBanner = () => {
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
-      className="w-full bg-primary text-primary-foreground overflow-hidden"
-    >
+      className="w-full bg-primary text-primary-foreground overflow-hidden">
+      
       <div className="container py-3">
         <div className="flex items-center justify-between">
           {/* Left: Live Pulse & Label */}
@@ -21,8 +21,8 @@ const BreakingNewsBanner = () => {
               <span className="text-xs font-bold uppercase tracking-wider">Live</span>
             </div>
             <div className="hidden sm:flex items-center gap-1.5 text-primary-foreground/90">
-              <TrendingUp size={14} />
-              <span className="text-xs font-medium">Trending Now</span>
+              <Activity size={14} />
+              <span className="text-xs font-medium">Breaking news </span>
             </div>
           </div>
 
@@ -34,11 +34,11 @@ const BreakingNewsBanner = () => {
                 x: {
                   duration: 20,
                   repeat: Infinity,
-                  ease: "linear",
-                },
+                  ease: "linear"
+                }
               }}
-              className="flex items-center gap-8 whitespace-nowrap"
-            >
+              className="flex items-center gap-8 whitespace-nowrap">
+              
               <span className="flex items-center gap-2 font-semibold text-sm sm:text-base">
                 <Zap size={16} className="fill-primary-foreground" />
                 Historic Rally: Over 50,000 supporters gather for major policy announcement
@@ -81,13 +81,13 @@ const BreakingNewsBanner = () => {
           transition={{
             duration: 3,
             repeat: Infinity,
-            ease: "linear",
+            ease: "linear"
           }}
-          className="h-full w-1/3 bg-gradient-to-r from-transparent via-primary-foreground to-transparent"
-        />
+          className="h-full w-1/3 bg-gradient-to-r from-transparent via-primary-foreground to-transparent" />
+        
       </div>
-    </motion.div>
-  );
+    </motion.div>);
+
 };
 
 export default BreakingNewsBanner;
