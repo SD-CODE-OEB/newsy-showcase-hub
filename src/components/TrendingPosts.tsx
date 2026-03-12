@@ -11,7 +11,7 @@ const posts = [
 const TrendingPosts = () =>
 <section className="container py-8">
     <div className="section-divider mb-3" />
-    <h2 className="section-title flex items-center justify-center gap-2">
+    <h2 className="section-title flex items-center justify-center gap-2 text-left">
       <TrendingUp size={24} className="text-accent" />
       Trending Now
     </h2>
