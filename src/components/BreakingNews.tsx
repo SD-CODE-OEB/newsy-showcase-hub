@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { AlertCircle } from "lucide-react";
 
 const headlines = [
   "Leader announces major infrastructure development plan for rural areas",
@@ -20,14 +22,24 @@ const BreakingNews = () => {
 
   return (
     <div className="bg-card border-b border-border">
-      <div className="container flex items-center gap-0 py-2">
-        <span className="shrink-0 bg-breaking text-breaking-foreground px-4 py-1.5 text-xs font-bold uppercase tracking-widest rounded-sm">
-          Breaking News
+      <div className="container flex items-center gap-3 py-2.5">
+        <span className="shrink-0 bg-breaking text-breaking-foreground px-4 py-1.5 text-xs font-bold uppercase tracking-widest rounded-full flex items-center gap-1.5 shimmer-bg">
+          <AlertCircle size={12} className="animate-pulse" />
+          Breaking
         </span>
-        <div className="overflow-hidden ml-3 flex-1">
-          <p className="text-sm font-medium text-foreground truncate transition-all duration-500">
-            {headlines[currentIndex]}
-          </p>
+        <div className="overflow-hidden flex-1">
+          <AnimatePresence mode="wait">
+            <motion.p
+              key={currentIndex}
+              initial={{ y: 20, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              exit={{ y: -20, opacity: 0 }}
+              transition={{ duration: 0.4, ease: "easeOut" }}
+              className="text-sm font-medium text-foreground truncate"
+            >
+              {headlines[currentIndex]}
+            </motion.p>
+          </AnimatePresence>
         </div>
       </div>
     </div>
