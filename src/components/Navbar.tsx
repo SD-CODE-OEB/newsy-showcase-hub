@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
-import { Menu, X, Zap } from "lucide-react";
+import { Menu, X, Battery } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
@@ -19,7 +19,7 @@ const Navbar = () => {
     <nav className="bg-navbar text-navbar-foreground sticky top-0 z-50 backdrop-blur-md bg-navbar/95">
       <div className="container flex items-center justify-between py-3">
         <Link to="/" className="flex items-center gap-2 font-heading text-xl font-bold tracking-wide group">
-          <Zap size={20} className="text-footer-accent group-hover:rotate-12 transition-transform duration-300" />
+          <Battery size={20} className="text-footer-accent group-hover:rotate-12 transition-transform duration-300" />
           <span>Sample page </span>
         </Link>
         <button className="md:hidden relative z-50" onClick={() => setOpen(!open)}>
