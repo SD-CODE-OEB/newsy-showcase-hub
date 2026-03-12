@@ -4,12 +4,12 @@ import { Menu, X, Zap } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
-  { label: "Home", path: "/" },
-  { label: "About", path: "/about" },
-  { label: "Gallery", path: "/gallery" },
-  { label: "Social", path: "/social" },
-  { label: "Contact", path: "/contact" },
-];
+{ label: "Home", path: "/" },
+{ label: "About", path: "/about" },
+{ label: "Gallery", path: "/gallery" },
+{ label: "Social", path: "/social" },
+{ label: "Contact", path: "/contact" }];
+
 
 const Navbar = () => {
   const location = useLocation();
@@ -20,64 +20,64 @@ const Navbar = () => {
       <div className="container flex items-center justify-between py-3">
         <Link to="/" className="flex items-center gap-2 font-heading text-xl font-bold tracking-wide group">
           <Zap size={20} className="text-footer-accent group-hover:rotate-12 transition-transform duration-300" />
-          <span>NewsChannel</span>
+          <span>Sample page </span>
         </Link>
         <button className="md:hidden relative z-50" onClick={() => setOpen(!open)}>
           {open ? <X size={24} /> : <Menu size={24} />}
         </button>
         <ul className="hidden md:flex items-center gap-1">
-          {navLinks.map((link) => (
-            <li key={link.path}>
+          {navLinks.map((link) =>
+          <li key={link.path}>
               <Link
-                to={link.path}
-                className={`relative px-4 py-2 text-sm font-medium tracking-wide transition-all duration-300 rounded-full hover:bg-navbar-foreground/10 ${
-                  location.pathname === link.path
-                    ? "text-footer-accent bg-navbar-foreground/10"
-                    : "text-navbar-foreground/80 hover:text-navbar-foreground"
-                }`}
-              >
+              to={link.path}
+              className={`relative px-4 py-2 text-sm font-medium tracking-wide transition-all duration-300 rounded-full hover:bg-navbar-foreground/10 ${
+              location.pathname === link.path ?
+              "text-footer-accent bg-navbar-foreground/10" :
+              "text-navbar-foreground/80 hover:text-navbar-foreground"}`
+              }>
+              
                 {link.label}
-                {location.pathname === link.path && (
-                  <motion.span
-                    layoutId="nav-indicator"
-                    className="absolute bottom-0 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full bg-footer-accent"
-                  />
-                )}
+                {location.pathname === link.path &&
+              <motion.span
+                layoutId="nav-indicator"
+                className="absolute bottom-0 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full bg-footer-accent" />
+
+              }
               </Link>
             </li>
-          ))}
+          )}
         </ul>
       </div>
       <AnimatePresence>
-        {open && (
-          <motion.div
-            initial={{ opacity: 0, y: -10 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -10 }}
-            className="md:hidden absolute top-full left-0 right-0 bg-navbar/98 backdrop-blur-lg border-t border-navbar-foreground/10 z-40"
-          >
+        {open &&
+        <motion.div
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -10 }}
+          className="md:hidden absolute top-full left-0 right-0 bg-navbar/98 backdrop-blur-lg border-t border-navbar-foreground/10 z-40">
+          
             <ul className="container py-4 space-y-1">
-              {navLinks.map((link) => (
-                <li key={link.path}>
+              {navLinks.map((link) =>
+            <li key={link.path}>
                   <Link
-                    to={link.path}
-                    onClick={() => setOpen(false)}
-                    className={`block px-4 py-3 text-sm font-medium rounded-lg transition-colors ${
-                      location.pathname === link.path
-                        ? "text-footer-accent bg-navbar-foreground/10"
-                        : "hover:bg-navbar-foreground/5"
-                    }`}
-                  >
+                to={link.path}
+                onClick={() => setOpen(false)}
+                className={`block px-4 py-3 text-sm font-medium rounded-lg transition-colors ${
+                location.pathname === link.path ?
+                "text-footer-accent bg-navbar-foreground/10" :
+                "hover:bg-navbar-foreground/5"}`
+                }>
+                
                     {link.label}
                   </Link>
                 </li>
-              ))}
+            )}
             </ul>
           </motion.div>
-        )}
+        }
       </AnimatePresence>
-    </nav>
-  );
+    </nav>);
+
 };
 
 export default Navbar;
