@@ -5,7 +5,7 @@ const AdBanner = () => (
     <img
       src={adImage}
       alt="Advertisement"
-      className="w-full h-[200px] rounded-xl object-cover"
+      className="w-full h-[400px] rounded-xl object-cover"
       loading="lazy"
     />
   </div>
