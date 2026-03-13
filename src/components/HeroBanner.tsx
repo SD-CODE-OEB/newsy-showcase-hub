@@ -2,13 +2,14 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { headlines } from "./BreakingNews";
 import { Play } from "lucide-react";
+import bannerImg from "@/assets/banner1.jpg";
 
 const bannerImages = [
-  "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1200&h=500&fit=crop",
-  "https://images.unsplash.com/photo-1540910419892-4a36d2c3266c?w=1200&h=500&fit=crop",
-  "https://images.unsplash.com/photo-1523050854058-8df90110c476?w=1200&h=500&fit=crop",
-  "https://images.unsplash.com/photo-1577495508048-b635879837f1?w=1200&h=500&fit=crop",
-  "https://images.unsplash.com/photo-1504711434969-e33886168d5c?w=1200&h=500&fit=crop",
+  bannerImg,
+  bannerImg,
+  bannerImg,
+  bannerImg,
+  bannerImg,
 ];
 
 const HeroBanner = () => {
