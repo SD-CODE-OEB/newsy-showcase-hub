@@ -1,17 +1,16 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight, Maximize2 } from "lucide-react";
 import { motion } from "framer-motion";
+import gallery1 from "@/assets/gallery1.jpg";
+import gallery2 from "@/assets/gallery2.jpg";
+import gallery3 from "@/assets/gallery3.jpg";
+import gallery4 from "@/assets/gallery4.jpg";
+import gallery5 from "@/assets/gallery5.jpg";
+import gallery6 from "@/assets/gallery6.jpg";
+import gallery7 from "@/assets/gallery7.jpg";
+import gallery8 from "@/assets/gallery8.jpg";
 
-const galleryImages = [
-  "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=400&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1540910419892-4a36d2c3266c?w=400&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1523050854058-8df90110c476?w=400&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1577495508048-b635879837f1?w=400&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1504711434969-e33886168d5c?w=400&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1495020689067-958852a7765e?w=400&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=400&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=400&h=400&fit=crop",
-];
+const galleryImages = [gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8];
 
 const GalleryCarousel = () => {
   const [offset, setOffset] = useState(0);
