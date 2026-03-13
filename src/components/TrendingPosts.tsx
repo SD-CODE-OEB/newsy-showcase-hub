@@ -1,11 +1,15 @@
 import { motion } from "framer-motion";
 import { TrendingUp, Clock } from "lucide-react";
+import trending1 from "@/assets/trending1.jpg";
+import trending2 from "@/assets/trending2.jpg";
+import trending3 from "@/assets/trending3.jpg";
+import trending4 from "@/assets/trending4.jpg";
 
 const posts = [
-{ title: "Campaign Trail: Key Moments from Yesterday", img: "https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=400&h=300&fit=crop", tag: "Politics", time: "2h ago" },
-{ title: "Exclusive Interview with Party Leaders", img: "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400&h=300&fit=crop", tag: "Exclusive", time: "4h ago" },
-{ title: "Policy Roundup: What Changes Ahead", img: "https://images.unsplash.com/photo-1495020689067-958852a7765e?w=400&h=300&fit=crop", tag: "Analysis", time: "6h ago" },
-{ title: "Community Outreach Program Launched", img: "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=400&h=300&fit=crop", tag: "Community", time: "8h ago" }];
+{ title: "Campaign Trail: Key Moments from Yesterday", img: trending1, tag: "Politics", time: "2h ago" },
+{ title: "Exclusive Interview with Party Leaders", img: trending2, tag: "Exclusive", time: "4h ago" },
+{ title: "Policy Roundup: What Changes Ahead", img: trending3, tag: "Analysis", time: "6h ago" },
+{ title: "Community Outreach Program Launched", img: trending4, tag: "Community", time: "8h ago" }];
 
 
 const TrendingPosts = () =>
