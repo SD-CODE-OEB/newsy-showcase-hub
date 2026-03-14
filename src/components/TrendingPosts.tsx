@@ -36,9 +36,9 @@ const TrendingPosts = () =>
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
         
             <div className="absolute inset-0 bg-gradient-to-t from-foreground/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 border-secondary-foreground shadow-sm rounded-xl border-0" />
-            <span className="absolute top-2 left-2 px-2 py-0.5 bg-accent text-accent-foreground text-[10px] font-bold uppercase rounded-full tracking-wider">
-              {post.tag}
-            </span>
+            
+
+        
           </div>
           <div className="mt-2.5">
             <p className="text-xs md:text-sm font-semibold text-foreground leading-tight group-hover:text-accent transition-colors duration-200">
