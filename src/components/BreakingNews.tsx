@@ -25,7 +25,7 @@ const BreakingNews = () => {
       <div className="container flex items-center gap-3 py-2.5">
         <span className="shrink-0 bg-breaking text-breaking-foreground px-4 py-1.5 text-xs font-bold uppercase tracking-widest rounded-full flex items-center gap-1.5 shimmer-bg">
           <AlertCircle size={12} className="animate-pulse" />
-          Breaking
+          Updated
         </span>
         <div className="overflow-hidden flex-1">
           <AnimatePresence mode="wait">
