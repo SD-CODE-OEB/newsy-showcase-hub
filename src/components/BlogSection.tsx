@@ -12,7 +12,7 @@ const blogPosts = [
 const BlogSection = () => (
   <section className="container py-8">
     <div className="section-divider mb-3" />
-    <h2 className="section-title">Latest Updates</h2>
+    <h2 className="section-title">Live & Breaking News</h2>
     <div className="mt-5 space-y-3">
       {blogPosts.map((post, i) => (
         <motion.article
