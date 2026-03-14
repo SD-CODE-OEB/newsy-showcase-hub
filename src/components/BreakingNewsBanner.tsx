@@ -22,7 +22,7 @@ const BreakingNewsBanner = () => {
             </div>
             <div className="hidden sm:flex items-center gap-1.5 text-primary-foreground/90">
               <Activity size={14} />
-              <span className="text-xs font-medium">Breaking news </span>
+              <span className="text-xs font-medium">Updated News</span>
             </div>
           </div>
 
