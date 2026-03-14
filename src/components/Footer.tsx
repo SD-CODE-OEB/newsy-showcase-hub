@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Zap, ArrowUp } from "lucide-react";
+import { ArrowUp, Facebook, Twitter, Instagram, Youtube } from "lucide-react";
 
 const footerLinks = [
   { label: "Home", path: "/" },
@@ -13,10 +13,6 @@ const Footer = () => (
   <footer className="bg-footer text-footer-foreground relative">
     <div className="container py-10">
       <div className="flex flex-col items-center gap-6">
-        <div className="flex items-center gap-2 font-heading text-xl font-bold text-footer-accent">
-          <Zap size={20} />
-          NewsChannel
-        </div>
         <div className="flex flex-wrap justify-center gap-4 md:gap-8">
           {footerLinks.map((link) => (
             <Link
@@ -28,8 +24,14 @@ const Footer = () => (
             </Link>
           ))}
         </div>
+        <div className="flex items-center gap-4">
+          <a href="#" className="text-footer-foreground/70 hover:text-footer-accent transition-colors"><Facebook size={20} /></a>
+          <a href="#" className="text-footer-foreground/70 hover:text-footer-accent transition-colors"><Twitter size={20} /></a>
+          <a href="#" className="text-footer-foreground/70 hover:text-footer-accent transition-colors"><Instagram size={20} /></a>
+          <a href="#" className="text-footer-foreground/70 hover:text-footer-accent transition-colors"><Youtube size={20} /></a>
+        </div>
         <div className="w-16 h-px bg-footer-foreground/20" />
-        <p className="text-xs text-footer-foreground/60">© 2026 NewsChannel. All rights reserved.</p>
+        <p className="text-xs text-footer-foreground/60">© 2026 All rights reserved.</p>
       </div>
     </div>
     <button
