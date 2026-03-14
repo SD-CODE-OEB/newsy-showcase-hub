@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/PSR.png";
 
 const navLinks = [
 { label: "Home", path: "/" },
@@ -19,7 +19,8 @@ const Navbar = () => {
   return (
     <nav className="bg-navbar text-navbar-foreground sticky top-0 z-50 backdrop-blur-md bg-navbar/95">
       <div className="container flex items-center justify-between py-3">
-        <Link to="/" className="font-heading text-xl font-bold tracking-wide">
+        <Link to="/" className="flex items-center gap-2 group">
+          <img src={logo} alt="Logo" className="h-10 w-10 rounded-full object-cover" />
         </Link>
         <button className="md:hidden relative z-50" onClick={() => setOpen(!open)}>
           {open ? <X size={24} /> : <Menu size={24} />}
