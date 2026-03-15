@@ -16,7 +16,9 @@ const SocialConnect = ({ compact = false }: { compact?: boolean }) => (
       {socials.map((s, i) => (
         <motion.a
           key={s.name}
-          href="#"
+          href={s.url}
+          target="_blank"
+          rel="noopener noreferrer"
           initial={{ opacity: 0, y: 15 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
