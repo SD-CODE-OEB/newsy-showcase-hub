@@ -6,10 +6,11 @@ import trending3 from "@/assets/trending3.jpg";
 import trending4 from "@/assets/trending4.jpg";
 
 const posts = [
-{ title: "Campaign Trail: Key Moments from Yesterday", img: trending1, tag: "Politics", time: "2h ago" },
-{ title: "Exclusive Interview with Party Leaders", img: trending2, tag: "Exclusive", time: "4h ago" },
-{ title: "Policy Roundup: What Changes Ahead", img: trending3, tag: "Analysis", time: "6h ago" },
-{ title: "Community Outreach Program Launched", img: trending4, tag: "Community", time: "8h ago" }];
+  { title: "Distribution of Eid-ka-Tohfa by the Minister.", img: trending1, tag: "Politics", time: "2h ago" },
+  { title: "Inauguration of Development Works.", img: trending2, tag: "Exclusive", time: "4h ago" },
+  { title: "Attending the Training Session for Local Public Representatives.", img: trending3, tag: "Analysis", time: "6h ago" },
+  { title: "Visiting the Sacred Place in Khammam District.", img: trending4, tag: "Community", time: "8h ago" },
+];
 
 
 const TrendingPosts = () =>
