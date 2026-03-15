@@ -18,7 +18,7 @@ const BreakingNewsBanner = () => {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary-foreground opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-primary-foreground"></span>
               </span>
-              <span className="text-xs font-bold uppercase tracking-wider">Updated</span>
+              <span className="text-xs font-bold uppercase tracking-wider">Latest</span>
             </div>
             <div className="hidden sm:flex items-center gap-1.5 text-primary-foreground/90">
               <Activity size={14} />
