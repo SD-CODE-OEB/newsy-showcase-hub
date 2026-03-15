@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 import { ArrowRight, Calendar, User } from "lucide-react";
 
 const blogPosts = [
-  { title: "Vision for a Better Tomorrow", date: "March 10, 2026", author: "Editorial Desk", category: "Opinion" },
-  { title: "Grassroots Movement Gains Momentum", date: "March 8, 2026", author: "Priya Sharma", category: "Politics" },
-  { title: "Infrastructure Push: Roads, Bridges & Beyond", date: "March 5, 2026", author: "Rahul Verma", category: "Development" },
-  { title: "Youth Empowerment Through Skill Development", date: "March 2, 2026", author: "Anjali Mehta", category: "Education" },
-  { title: "Healthcare Access: Promises & Progress", date: "February 28, 2026", author: "Suresh Patil", category: "Healthcare" },
+  { title: "Minister Ponguleti Srinivasa Reddy announced the government aims to complete 1 lakh Indiramma houses by March 2026.", date: "March 10, 2026", author: "Ponguleti Srinivas Reddy", category: "Politics" },
+  { title: "Distribution of Eid-ka-Tohfa by the Minister.", date: "March 8, 2026", author: "Ponguleti Srinivas Reddy", category: "Politics" },
+  { title: "Inauguration of Development Works", date: "March 5, 2026", author: "Ponguleti Srinivas Reddy", category: "Politics" },
+  { title: "Attending the Training Session for Local Public Representatives.", date: "March 2, 2026", author: "Ponguleti Srinivas Reddy", category: "Politics" },
+  { title: "Visiting the Sacred Place in Khammam District.", date: "February 28, 2026", author: "Ponguleti Srinivas Reddy", category: "Politics" },
 ];
 
 const BlogSection = () => (

@@ -41,7 +41,7 @@ const BreakingNewsBanner = () => {
               
               <span className="flex items-center gap-2 font-semibold text-sm sm:text-base">
                 <Zap size={16} className="fill-primary-foreground" />
-                Historic Rally: Over 50,000 supporters gather for major policy announcement
+                Minister Ponguleti Srinivasa Reddy announced the government aims to complete 1 lakh Indiramma houses by March 2026.
               </span>
               <span className="w-1.5 h-1.5 rounded-full bg-primary-foreground/50"></span>
               <span className="flex items-center gap-2 font-semibold text-sm sm:text-base">
