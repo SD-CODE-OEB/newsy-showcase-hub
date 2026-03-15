@@ -46,17 +46,17 @@ const BreakingNewsBanner = () => {
               <span className="w-1.5 h-1.5 rounded-full bg-primary-foreground/50"></span>
               <span className="flex items-center gap-2 font-semibold text-sm sm:text-base">
                 <Zap size={16} className="fill-primary-foreground" />
-                Infrastructure Bill Passed: $2B allocated for rural development
+                Distribution of Eid-ka-Tohfa by the Minister.
               </span>
               <span className="w-1.5 h-1.5 rounded-full bg-primary-foreground/50"></span>
               <span className="flex items-center gap-2 font-semibold text-sm sm:text-base">
                 <Zap size={16} className="fill-primary-foreground" />
-                Education Reform: New scholarships for 100,000 students announced
+                Inauguration of Development Works.
               </span>
               <span className="w-1.5 h-1.5 rounded-full bg-primary-foreground/50"></span>
               <span className="flex items-center gap-2 font-semibold text-sm sm:text-base">
                 <Zap size={16} className="fill-primary-foreground" />
-                Healthcare Initiative: Universal coverage expansion begins next month
+                Attending the Training Session for Local Public Representatives.
               </span>
               <span className="w-1.5 h-1.5 rounded-full bg-primary-foreground/50"></span>
             </motion.div>

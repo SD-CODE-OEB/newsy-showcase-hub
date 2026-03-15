@@ -3,11 +3,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import { AlertCircle } from "lucide-react";
 
 const headlines = [
-  "Leader announces major infrastructure development plan for rural areas",
-  "Historic rally draws thousands of supporters across the state",
-  "New education initiative to benefit over 1 million students",
-  "Healthcare reform bill passed with overwhelming majority",
-  "International trade agreement signed to boost local economy",
+  "Minister Ponguleti Srinivasa Reddy announced the government aims to complete 1 lakh Indiramma houses by March 2026.",
+  "Distribution of Eid-ka-Tohfa by the Minister.",
+  "Inauguration of Development Works.",
+  "Attending the Training Session for Local Public Representatives.",
 ];
 
 const BreakingNews = () => {
