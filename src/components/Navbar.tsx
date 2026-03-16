@@ -19,11 +19,9 @@ const Navbar = () => {
   return (
     <nav className="bg-navbar text-navbar-foreground sticky top-0 z-50 backdrop-blur-md bg-navbar/95">
       <div className="container flex items-center justify-between py-3">
-        <Link to="/" className="flex items-center gap-2 group">
+        <Link to="/" className="flex items-center gap-2 group shrink-0">
           <img src={logo} alt="Logo" className="h-10 w-10 rounded-full object-cover" />
-        </Link>
-        <Link to="/" className="absolute left-1/2 -translate-x-1/2">
-          <span className="font-heading font-bold text-navbar-foreground" style={{ fontSize: '2rem' }}>పొంగులేటి శ్రీనివాస్ రెడ్డి</span>
+          <span className="font-heading font-bold text-navbar-foreground text-base sm:text-lg md:text-2xl truncate max-w-[180px] sm:max-w-none">పొంగులేటి శ్రీనివాస్ రెడ్డి</span>
         </Link>
         <button className="md:hidden relative z-50" onClick={() => setOpen(!open)}>
           {open ? <X size={24} /> : <Menu size={24} />}

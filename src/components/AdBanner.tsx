@@ -1,7 +1,7 @@
 import adBanner from "@/assets/ad-banner.jpg";
 
 const AdBanner = () => (
-  <div className="container py-5">
+  <div className="container py-2">
     <img src={adBanner} alt="Advertisement" className="w-full rounded-xl object-cover" />
   </div>
 );
