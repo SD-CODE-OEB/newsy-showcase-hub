@@ -21,7 +21,9 @@ const Navbar = () => {
       <div className="container flex items-center justify-between py-3">
         <Link to="/" className="flex items-center gap-2 group">
           <img src={logo} alt="Logo" className="h-10 w-10 rounded-full object-cover" />
-          <span className="font-heading font-bold text-sm md:text-base tracking-wide text-navbar-foreground">పొంగులేటి శ్రీనివాస్ రెడ్డి</span>
+        </Link>
+        <Link to="/" className="absolute left-1/2 -translate-x-1/2">
+          <span className="font-heading font-bold text-navbar-foreground" style={{ fontSize: '2rem' }}>పొంగులేటి శ్రీనివాస్ రెడ్డి</span>
         </Link>
         <button className="md:hidden relative z-50" onClick={() => setOpen(!open)}>
           {open ? <X size={24} /> : <Menu size={24} />}
