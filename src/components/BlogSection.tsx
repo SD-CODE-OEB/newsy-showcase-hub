@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 import { ArrowRight, Calendar, User } from "lucide-react";
 
 const blogPosts = [
-  { title: "Minister Ponguleti Srinivasa Reddy announced the government aims to complete 1 lakh Indiramma houses by March 2026.", date: "March 10, 2026", author: "Ponguleti Srinivas Reddy", category: "Politics" },
-  { title: "Distribution of Eid-ka-Tohfa by the Minister.", date: "March 8, 2026", author: "Ponguleti Srinivas Reddy", category: "Politics" },
-  { title: "Inauguration of Development Works", date: "March 5, 2026", author: "Ponguleti Srinivas Reddy", category: "Politics" },
-  { title: "Attending the Training Session for Local Public Representatives.", date: "March 2, 2026", author: "Ponguleti Srinivas Reddy", category: "Politics" },
-  { title: "Visiting the Sacred Place in Khammam District.", date: "February 28, 2026", author: "Ponguleti Srinivas Reddy", category: "Politics" },
+  { title: "భూ రికార్డులు లేని గ్రామాల్లో అధునాతన 'రోవర్' టెక్నాలజీతో రీ-సర్వే నిర్వహించి రైతులకు 'భూదార్' కార్డులు అందజేసే ప్రక్రియకు పునాది.", date: "March 10, 2026", author: "పొంగులేటి శ్రీనివాసరెడ్డి", category: "Politics" },
+  { title: "మౌలిక వసతుల మెరుగుదలనే ధ్యేయంగా అభివృద్ధి పనులకు శంకుస్థాపన.", date: "March 8, 2026", author: "పొంగులేటి శ్రీనివాసరెడ్డి", category: "Politics" },
+  { title: "ప్రజాపాలన-ప్రగతి ప్రణాళికలో భాగంగా స్థానిక ప్రజాప్రతినిధులకు శిక్షణ కార్యక్రమంలో ప్రసంగం.", date: "March 5, 2026", author: "పొంగులేటి శ్రీనివాసరెడ్డి", category: "Politics" },
+  { title: "ప్రజాపాలన-ప్రగతి ప్రణాళికలో భాగంగా స్థానిక ప్రజాప్రతినిధులకు శిక్షణ కార్యక్రమంలో ప్రసంగం.", date: "March 2, 2026", author: "పొంగులేటి శ్రీనివాసరెడ్డి", category: "Politics" },
+  { title: "ఖమ్మం జిల్లాలో అభివృద్ధి, సంక్షేమ కార్యక్రమాల అమలుపై అధికారులతో సమీక్షా సమావేశంలో మంత్రి పొంగులేటి.", date: "February 28, 2026", author: "పొంగులేటి శ్రీనివాసరెడ్డి", category: "Politics" },
 ];
 
 const BlogSection = () => (

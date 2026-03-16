@@ -6,12 +6,11 @@ import trending3 from "@/assets/trending3.jpg";
 import trending4 from "@/assets/trending4.jpg";
 
 const posts = [
-  { title: "Distribution of Eid-ka-Tohfa by the Minister.", img: trending1, tag: "Politics", time: "2h ago" },
-  { title: "Inauguration of Development Works.", img: trending2, tag: "Exclusive", time: "4h ago" },
-  { title: "Attending the Training Session for Local Public Representatives.", img: trending3, tag: "Analysis", time: "6h ago" },
-  { title: "Visiting the Sacred Place in Khammam District.", img: trending4, tag: "Community", time: "8h ago" },
+  { title: "మైనారిటీల సంక్షేమాన్ని ఆకాంక్షిస్తూ రంజాన్ కానుకలను పంపిణీ చేస్తున్న మంత్రి పొంగులేటి గారు.", img: trending1, tag: "Politics", time: "2h ago" },
+  { title: "మౌలిక వసతుల మెరుగుదలనే ధ్యేయంగా అభివృద్ధి పనులకు శంకుస్థాపన.", img: trending2, tag: "Exclusive", time: "4h ago" },
+  { title: "ప్రజాపాలన-ప్రగతి ప్రణాళికలో భాగంగా స్థానిక ప్రజాప్రతినిధులకు శిక్షణ కార్యక్రమంలో ప్రసంగం.", img: trending3, tag: "Analysis", time: "6h ago" },
+  { title: "ఆధ్యాత్మిక చింతనకు ప్రాధాన్యం ఇస్తూ ప్రముఖ దేవాలయాలను సందర్శించిన మంత్రి పొంగులేటి గారు.", img: trending4, tag: "Community", time: "8h ago" },
 ];
-
 
 const TrendingPosts = () =>
 <section className="container py-8">
@@ -29,17 +28,12 @@ const TrendingPosts = () =>
       viewport={{ once: true }}
       transition={{ delay: i * 0.1, duration: 0.4 }}
       className="group cursor-pointer">
-      
           <div className="relative overflow-hidden rounded-xl bg-muted aspect-[4/3]">
             <img
           src={post.img}
           alt={post.title}
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
-        
             <div className="absolute inset-0 bg-gradient-to-t from-foreground/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 border-secondary-foreground shadow-sm rounded-xl border-0" />
-            
-
-        
           </div>
           <div className="mt-2.5">
             <p className="text-xs md:text-sm font-semibold text-foreground leading-tight group-hover:text-accent transition-colors duration-200">
@@ -53,6 +47,5 @@ const TrendingPosts = () =>
     )}
     </div>
   </section>;
-
 
 export default TrendingPosts;
