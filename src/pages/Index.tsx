@@ -11,7 +11,6 @@ import Footer from "@/components/Footer";
 const Index = () => (
   <div className="min-h-screen bg-background flex flex-col">
     <Navbar />
-    <BreakingNewsBanner />
     <BreakingNews />
     <HeroBanner />
     <TrendingPosts />
