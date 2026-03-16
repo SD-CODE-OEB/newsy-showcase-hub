@@ -3,10 +3,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import { AlertCircle } from "lucide-react";
 
 const headlines = [
-  "Minister Ponguleti Srinivasa Reddy announced the government aims to complete 1 lakh Indiramma houses by March 2026.",
-  "Distribution of Eid-ka-Tohfa by the Minister.",
-  "Inauguration of Development Works.",
-  "Attending the Training Session for Local Public Representatives.",
+  "ప్రజాప్రభుత్వం వచ్చిన మొదటి ఏడాదిలోనే 4.50 లక్షల ఇండ్ల మంజూరు : మంత్రి పొంగులేటి శ్రీనివాసరెడ్డి",
+  "భూ రికార్డులు లేని గ్రామాల్లో అధునాతన 'రోవర్' టెక్నాలజీతో రీ-సర్వే నిర్వహించి రైతులకు 'భూదార్' కార్డులు అందజేసే ప్రక్రియకు పునాది.",
+  "మైనారిటీల సంక్షేమాన్ని ఆకాంక్షిస్తూ రంజాన్ కానుకలను పంపిణీ చేస్తున్న మంత్రి పొంగులేటి గారు.",
+  "మౌలిక వసతుల మెరుగుదలనే ధ్యేయంగా అభివృద్ధి పనులకు శంకుస్థాపన.",
 ];
 
 const BreakingNews = () => {
