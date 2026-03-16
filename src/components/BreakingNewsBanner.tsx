@@ -39,7 +39,7 @@ const BreakingNewsBanner = () => {
               }}
               className="flex items-center gap-8 whitespace-nowrap">
               
-              <span className="flex items-center gap-2 font-semibold text-sm sm:text-base">
+              <span className="flex items-center gap-2 font-semibold text-sm sm:text-base">ప్రజాప్రభుత్వం వచ్చిన మొదటి ఏడాదిలోనే 4.50 లక్షల ఇండ్ల మంజూరు : మంత్రి పొంగులేటి శ్రీనివాసరెడ్డి.
                 <Zap size={16} className="fill-primary-foreground" />
                 Minister Ponguleti Srinivasa Reddy announced the government aims to complete 1 lakh Indiramma houses by March 2026.
               </span>
