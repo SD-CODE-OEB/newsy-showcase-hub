@@ -9,7 +9,7 @@ const socials = [
 ];
 
 const SocialConnect = ({ compact = false }: { compact?: boolean }) => (
-  <section className={compact ? "" : "container py-8"}>
+  <section className={compact ? "" : "container py-4"}>
     {!compact && <div className="section-divider mb-3" />}
     <h2 className="section-title">Stay Connected</h2>
     <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-5">

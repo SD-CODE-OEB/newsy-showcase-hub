@@ -20,7 +20,7 @@ const HeroBanner = () => {
 
   return (
     <div className="container py-5">
-      <div className="relative w-full h-56 md:h-80 overflow-hidden rounded-2xl bg-muted group">
+      <div className="relative w-full h-64 md:h-96 overflow-hidden rounded-2xl bg-muted group">
         <AnimatePresence mode="wait">
           <motion.img
             key={currentIndex}
