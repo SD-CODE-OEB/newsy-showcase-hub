@@ -2,10 +2,10 @@ import { Facebook, Twitter, Youtube, Instagram, ExternalLink } from "lucide-reac
 import { motion } from "framer-motion";
 
 const socials = [
-  { name: "Twitter (X)", icon: Twitter, color: "bg-foreground text-background", handle: "@INC_Ponguleti", followers: "1.8M", url: "https://x.com/INC_Ponguleti" },
-  { name: "Facebook", icon: Facebook, color: "bg-social-facebook", handle: "@Ponguleti", followers: "2.4M", url: "https://www.facebook.com/Ponguleti/photos" },
-  { name: "Youtube", icon: Youtube, color: "bg-social-youtube", handle: "Minister Ponguleti Official", followers: "5.2M", url: "https://www.youtube.com/@MinisterPonguletiOfficial" },
-  { name: "Instagram", icon: Instagram, color: "bg-social-instagram", handle: "@ponguleti_srinivasareddy", followers: "3.1M", url: "https://www.instagram.com/ponguleti_srinivasareddy/" },
+  { name: "Twitter (X)", icon: Twitter, color: "bg-foreground text-background", handle: "@INC_Ponguleti", followers: "23.9K", url: "https://x.com/INC_Ponguleti" },
+  { name: "Facebook", icon: Facebook, color: "bg-social-facebook", handle: "@Ponguleti", followers: "1.77K", url: "https://www.facebook.com/Ponguleti/photos" },
+  { name: "Youtube", icon: Youtube, color: "bg-social-youtube", handle: "Minister Ponguleti Official", followers: "9.08K", url: "https://www.youtube.com/@MinisterPonguletiOfficial" },
+  { name: "Instagram", icon: Instagram, color: "bg-social-instagram", handle: "@ponguleti_srinivasareddy", followers: "89.9K", url: "https://www.instagram.com/ponguleti_srinivasareddy/" },
 ];
 
 const SocialConnect = ({ compact = false }: { compact?: boolean }) => (

@@ -1,5 +1,4 @@
 import Navbar from "@/components/Navbar";
-import BreakingNews from "@/components/BreakingNews";
 import HeroBanner from "@/components/HeroBanner";
 import TrendingPosts from "@/components/TrendingPosts";
 import AdBanner from "@/components/AdBanner";
@@ -11,7 +10,6 @@ import Footer from "@/components/Footer";
 const Index = () => (
   <div className="min-h-screen bg-background flex flex-col">
     <Navbar />
-    <BreakingNews />
     <HeroBanner />
     <TrendingPosts />
     <AdBanner />
