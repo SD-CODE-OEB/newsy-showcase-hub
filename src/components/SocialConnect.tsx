@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const socials = [
   { name: "Twitter (X)", icon: Twitter, color: "bg-foreground text-background", handle: "@INC_Ponguleti", followers: "23.9K", url: "https://x.com/INC_Ponguleti" },
-  { name: "Facebook", icon: Facebook, color: "bg-social-facebook", handle: "@Ponguleti", followers: "1.77K", url: "https://www.facebook.com/Ponguleti/photos" },
+  { name: "Facebook", icon: Facebook, color: "bg-social-facebook", handle: "@Ponguleti", followers: "177K", url: "https://www.facebook.com/Ponguleti/photos" },
   { name: "Youtube", icon: Youtube, color: "bg-social-youtube", handle: "Minister Ponguleti Official", followers: "9.08K", url: "https://www.youtube.com/@MinisterPonguletiOfficial" },
   { name: "Instagram", icon: Instagram, color: "bg-social-instagram", handle: "@ponguleti_srinivasareddy", followers: "89.9K", url: "https://www.instagram.com/ponguleti_srinivasareddy/" },
 ];
