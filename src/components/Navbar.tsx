@@ -21,7 +21,7 @@ const Navbar = () => {
       <div className="container flex items-center justify-between py-3">
         <Link to="/" className="flex items-center gap-2 group shrink-0">
           <img src={logo} alt="Logo" className="h-10 w-10 rounded-full object-cover" />
-          <span className="font-heading font-bold text-navbar-foreground text-base sm:text-lg md:text-2xl truncate max-w-[180px] sm:max-w-none">Ponguleti Srinivasa Reddy</span>
+          <span className="font-heading font-bold text-navbar-foreground text-sm sm:text-lg md:text-2xl truncate max-w-[140px] sm:max-w-[220px] md:max-w-none">Ponguleti Srinivasa Reddy</span>
         </Link>
         <button className="md:hidden relative z-50" onClick={() => setOpen(!open)}>
           {open ? <X size={24} /> : <Menu size={24} />}
