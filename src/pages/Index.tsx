@@ -1,5 +1,5 @@
 import Navbar from "@/components/Navbar";
-import BreakingNews from "@/components/BreakingNews";
+import BreakingNewsBanner from "@/components/BreakingNewsBanner";
 import HeroBanner from "@/components/HeroBanner";
 import TrendingPosts from "@/components/TrendingPosts";
 import AdBanner from "@/components/AdBanner";
