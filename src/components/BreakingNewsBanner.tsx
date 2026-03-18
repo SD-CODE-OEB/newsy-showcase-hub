@@ -30,7 +30,7 @@ const BreakingNewsBanner = () => {
               animate={{ x: ["0%", "-50%"] }}
               transition={{
                 x: {
-                  duration: 10,
+                  duration: 5,
                   repeat: Infinity,
                   ease: "linear"
                 }
